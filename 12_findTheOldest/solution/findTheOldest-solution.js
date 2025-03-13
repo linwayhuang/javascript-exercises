@@ -12,6 +12,8 @@ const findTheOldest = function (people) {
       currentPerson.yearOfBirth,
       currentPerson.yearOfDeath
     );
+    //you can create new variables for the a value (oldest) and b value (currentPerson) by using the values
+    //in that object. Then compare that with each other below. This is similar to the sort method.
     return oldestAge < currentAge ? currentPerson : oldest;
   });
 };
